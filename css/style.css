@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dflex, body, .container, ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#0f0c29), color-stop(#302b63), to(#24243e));
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+.container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1024px;
+  padding: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, right top, from(#0f0c29), color-stop(#302b63), to(#24243e));
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  -webkit-box-shadow: 3px 22px 20px -11px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 22px 20px -11px rgba(0, 0, 0, 0.75);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 25px;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 35px;
+}
+
+li + li {
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.title span {
+  background-color: yellow;
+  color: #000;
+  padding: 5px 10px;
+}
+
+.js {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #fff;
+}
+
+.js .title span {
+  background-color: #ffc107;
+}
+
+.js li.active {
+  background-color: #ffc107;
+  -webkit-box-shadow: 3px 22px 20px -11px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 22px 20px -11px rgba(0, 0, 0, 0.75);
+}
+
+.js ::-moz-selection {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.js ::selection {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.jQ {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #fff;
+}
+
+.jQ .title span {
+  background-color: #0769ad;
+  color: #fff;
+}
+
+.jQ li.active {
+  background-color: #0769ad;
+  color: #fff;
+  -webkit-box-shadow: 3px 22px 20px -11px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 22px 20px -11px rgba(0, 0, 0, 0.75);
+}
+
+.jQ ::-moz-selection {
+  background-color: #0769ad;
+  color: #fff;
+}
+
+.jQ ::selection {
+  background-color: #0769ad;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
